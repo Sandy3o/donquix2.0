@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-10vh bg-black flex items-start justify-between px-8 p-10 ">
+    <nav className="w-100vh h-10vh flex flex-row items-start justify-between px-8 py-10 ">
       {/* Left Section: Logo & Text */}
       <div className="flex items-center gap-4 m-10">
         <img src={logo} alt="Donquix Logo" className="w-8 h-8" />
