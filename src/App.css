@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Chokokutai";
+    src: url("/fonts/chokokutai.woff2") format("woff2"),
+         url("/fonts/chokokutai.woff") format("woff"),
+         url("/fonts/chokokutai.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .font-chokokutai {
+    font-family: "Chokokutai", sans-serif;
+  }
+  
