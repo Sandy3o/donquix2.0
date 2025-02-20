@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from "../assets/heroImage.svg";
 import ellipse from "../assets/ellipse.svg";
+import "../App.css";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-[#EFC7B0] text-4xl md:text-5xl lg:text-6xl font-chokokuttai mt-6">
+      <h1 className="text-[#EFC7B0] text-4xl md:text-5xl lg:text-6xl font-chokokutai mt-6">
         A visionary craftspeople
       </h1>
 
