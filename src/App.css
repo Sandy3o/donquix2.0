@@ -14,8 +14,9 @@
   }
   
   @font-face {
-    font-family: "Gilroy";
-    src: url("../assets/fonts/Gilroy.ttf") format("truetype");
+    font-family: "Gilroy-Light";
+    src: url("../assets/fonts/Gilroy-Light.ttf") format("truetype");
+    /* src: url("../assets/fonts/Gilroy-Rgular.ttf") format("truetype"); */
     font-weight: normal;
     font-style: normal;
   }

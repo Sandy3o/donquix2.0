@@ -18,7 +18,7 @@ const HeroSection = () => {
       </h1>
 
       {/* Subtitle */}
-      <p className="text-[#EFC7B0] text-lg font-gilroy mt-4 max-w-2xl">
+      <p className="text-[#EFC7B0] text-lg font-gilroy mt-4 max-w-2xl font-Gilroy">
         Who push boundaries to bring brands, experiences, and stories to life.
       </p>
 
@@ -33,7 +33,8 @@ const HeroSection = () => {
       <div className="absolute left-25 top-75 space-y-6">
         <a
           href="/work"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-medium"
+          alt='work'
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
         >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
@@ -49,7 +50,8 @@ const HeroSection = () => {
       
         <a
           href="/Service"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-medium"
+          alt='Service'
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
         >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
@@ -59,11 +61,12 @@ const HeroSection = () => {
         </a>
         </div>
 
-         {/* Work Button */}
+         {/* Blogs Button */}
       <div className="absolute right-25 top-75 space-y-6">
         <a
           href="/Blogs"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-medium"
+          alt='Blogs'
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
         >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
@@ -77,7 +80,8 @@ const HeroSection = () => {
         <div className="absolute right-25 top-170 space-y-6">
         <a
           href="/HandBook"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-medium"
+          alt='HandBook'
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
         >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
@@ -87,11 +91,6 @@ const HeroSection = () => {
         </a>
         </div>
       
-
-      {/* CTA Button */}
-      {/* <button className="mt-8 px-6 py-3 bg-[#EFC7B0] text-black text-lg rounded-2xl font-gilroy hover:bg-[#e4b69d] transition">
-        Contact Us →
-      </button> */}
     </section>
   );
 };

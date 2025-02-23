@@ -1,6 +1,8 @@
 import React from "react";
 import star from "../assets/star.svg";
 import logo from "../assets/logo.svg";
+import "../App.css";
+
 
 const Navbar = () => {
   return (
@@ -28,7 +30,7 @@ const Navbar = () => {
             <img key={i} src={star} alt="star" className="w-4 h-4" />
           ))}
         </div>
-        <span className="text-[#EFC7B0] text-center sm:text-right text-sm sm:text-base">
+        <span className="text-[#EFC7B0] text-center sm:text-right text-sm sm:text-base font-Gilroy-Light">
           |  UNCOMMON among UNCOMMON
         </span>
       </div>
