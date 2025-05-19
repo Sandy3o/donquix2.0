@@ -1,8 +1,6 @@
-import React from "react";
 import star from "../assets/star.svg";
 import logo from "../assets/logo.svg";
 import "../App.css";
-
 
 const Navbar = () => {
   return (
@@ -23,7 +21,6 @@ const Navbar = () => {
 
       {/* Right Section */}
       <div className="flex flex-col sm:flex-row items-center gap-3 mt-2 sm:mt-0">
-        
         {/*right star) */}
         <div className="flex gap-5">
           {[...Array(3)].map((_, i) => (
@@ -31,7 +28,7 @@ const Navbar = () => {
           ))}
         </div>
         <span className="text-[#EFC7B0] text-center sm:text-right text-sm sm:text-base font-Gilroy-Light">
-          |  UNCOMMON among UNCOMMON
+          | UNCOMMON among UNCOMMON
         </span>
       </div>
     </nav>
