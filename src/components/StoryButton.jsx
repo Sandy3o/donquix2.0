@@ -1,4 +1,3 @@
-import React from "react";
 import buttonBackground from "../assets/buttonBackground.svg"; // Import SVG for button background
 
 const StoryButton = () => {
@@ -17,7 +16,11 @@ const StoryButton = () => {
 const SidebarButton = ({ text }) => {
   return (
     <button className="relative w-32 h-12 flex items-center justify-center text-[#EFC7B0] font-gilroy border-0 rounded-md hover:bg-[#EFC7B0] hover:text-black transition">
-      <img src={buttonBackground} alt="Button Background" className="absolute inset-0 w-full h-full opacity-70" />
+      <img
+        src={buttonBackground}
+        alt="Button Background"
+        className="absolute inset-0 w-full h-full opacity-70"
+      />
       <span className="relative z-10">{text}</span>
     </button>
   );

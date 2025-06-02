@@ -1,4 +1,3 @@
-import React from "react";
 import heroImage from "../assets/heroImage.svg";
 import ellipse from "../assets/ellipse.svg";
 // import buttonBackground from '../assets/buttonBackground';
@@ -9,7 +8,11 @@ const HeroSection = () => {
     <section className="w-full h-screen bg-black flex flex-col items-center justify-center text-center px-8">
       {/* Hero Image */}
       <div className="relative w-full max-w-4xl mx-auto">
-        <img src={heroImage} alt="Hero Illustration" className="w-full h-auto" />
+        <img
+          src={heroImage}
+          alt="Hero Illustration"
+          className="w-full h-auto"
+        />
       </div>
 
       {/* Title */}
@@ -24,73 +27,65 @@ const HeroSection = () => {
 
       {/* ellipse */}
       <div className="relative w-full max-w-4xl mx-auto">
-        <img src={ellipse} alt="ellipse"  className="w-full h-4 m-2"/>
-
+        <img src={ellipse} alt="ellipse" className="w-full h-4 m-2" />
       </div>
 
-    
-        {/* Work Button */}
+      {/* Work Button */}
       <div className="absolute left-25 top-75 space-y-6">
         <a
           href="/work"
-          alt='work'
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
-        >
+          alt="work"
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
           /> */}
           <span className="relative">Work</span>
         </a>
-        </div>
+      </div>
 
-          {/*Service Button */}
+      {/*Service Button */}
 
-        <div className="absolute left-25 top-170 space-y-6">
-      
+      <div className="absolute left-25 top-170 space-y-6">
         <a
           href="/Service"
-          alt='Service'
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
-        >
+          alt="Service"
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
           /> */}
           <span className="relative">Service</span>
         </a>
-        </div>
+      </div>
 
-         {/* Blogs Button */}
+      {/* Blogs Button */}
       <div className="absolute right-25 top-75 space-y-6">
         <a
           href="/Blogs"
-          alt='Blogs'
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
-        >
+          alt="Blogs"
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
           /> */}
           <span className="relative">Blogs</span>
         </a>
-        </div>
+      </div>
 
-          {/*HandBook button  */}
-        <div className="absolute right-25 top-170 space-y-6">
+      {/*HandBook button  */}
+      <div className="absolute right-25 top-170 space-y-6">
         <a
           href="/HandBook"
-          alt='HandBook'
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
-        >
+          alt="HandBook"
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
           /> */}
           <span className="relative">HandBook</span>
         </a>
-        </div>
-      
+      </div>
     </section>
   );
 };
