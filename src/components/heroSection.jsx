@@ -5,7 +5,7 @@ import "../App.css";
 
 const HeroSection = () => {
   return (
-    <section className="w-full h-screen bg-black flex flex-col items-center justify-center text-center px-8">
+    <section className="w-ful bg-black flex flex-col items-center justify-items-normal text-center mb-10">
       {/* Hero Image */}
       <div className="relative w-full max-w-4xl mx-auto">
         <img
@@ -16,7 +16,7 @@ const HeroSection = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-[#EFC7B0] text-4xl md:text-5xl lg:text-6xl font-chokokutai mt-6">
+      <h1 className="text-[#EFC7B0] text-4xl md:text-5xl lg:text-6xl font-chokokutai mt-1">
         A visionary craftspeople
       </h1>
 
@@ -35,7 +35,8 @@ const HeroSection = () => {
         <a
           href="/work"
           alt="work"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-MediumItalic"
+        >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
@@ -50,7 +51,8 @@ const HeroSection = () => {
         <a
           href="/Service"
           alt="Service"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
+        >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
@@ -64,7 +66,8 @@ const HeroSection = () => {
         <a
           href="/Blogs"
           alt="Blogs"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
+        >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}
@@ -78,7 +81,8 @@ const HeroSection = () => {
         <a
           href="/HandBook"
           alt="HandBook"
-          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light">
+          className="relative block px-6 py-3 text-[#EAD0B2] text-2xl font-Gilroy-Light"
+        >
           {/* <span
             className="absolute inset-0 bg-no-repeat bg-center bg-cover"
             style={{ buttonBackground }}

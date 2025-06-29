@@ -15,7 +15,7 @@ const StoryButton = () => {
 // Reusable Sidebar Button Component
 const SidebarButton = ({ text }) => {
   return (
-    <button className="relative w-32 h-12 flex items-center justify-center text-[#EFC7B0] font-gilroy border-0 rounded-md hover:bg-[#EFC7B0] hover:text-black transition">
+    <button className="absolute w-32 h-12 flex items-center justify-items-normal text-[#EFC7B0] font-gilroy border-0 rounded-md hover:bg-[#EFC7B0] hover:text-black transition">
       <img
         src={buttonBackground}
         alt="Button Background"

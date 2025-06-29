@@ -4,11 +4,11 @@ import "../App.css";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[10vh] flex flex-col sm:flex-row items-center justify-between px-6 sm:px-10 py-4 bg-black">
+    <nav className="w-full h-[10vh] flex flex-col sm:flex-row items-center justify-between px-6 sm:px-10 py-1 bg-black">
       {/* Left Section */}
       <div className="flex items-center gap-5">
         <img src={logo} alt="Donquix Logo" className="w-8 h-8" />
-        <span className="text-[#EFC7B0] text-lg font-chokokutai">Donquix</span>
+        <span className="text-[#EFC7B0] text-2xl font-chokokutai">Donquix</span>
         <span className="text-[#EFC7B0] hidden sm:inline">|</span>
 
         {/*left star*/}
@@ -27,8 +27,23 @@ const Navbar = () => {
             <img key={i} src={star} alt="star" className="w-4 h-4" />
           ))}
         </div>
-        <span className="text-[#EFC7B0] text-center sm:text-right text-sm sm:text-base font-Gilroy-Light">
-          | UNCOMMON among UNCOMMON
+        <span className="text-[#EFC7B0] text-center sm:text-center text-sm sm:text-base font-Gilroy-Medium">
+          |{" "}
+          <a
+            href="https://www.instagram.com/donquixstudio/"
+            target="_blank"
+            className="m-2 text-2xl font-Gilroy-Medium"
+          >
+            LinkedIn
+          </a>
+          |{" "}
+          <a
+            href="https://www.instagram.com/donquixstudio/"
+            target="_blank"
+            className="m-2 text-2xl font-Gilroy-Medium"
+          >
+            Instagram
+          </a>
         </span>
       </div>
     </nav>

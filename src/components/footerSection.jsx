@@ -4,12 +4,13 @@ const FooterSection = () => {
   return (
     <>
       <CurvedLine />
-      <div className="w-full h-100vh bg-black flex flex-col items-center justify-center pb-20 ">
+      <div className="w-full h-100vh bg-black flex flex-col items-center justify-items-center pb-10 ">
         <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@donquix.com.com&su=Contact%20Inquiry&body=Hello,%20I%20would%20like%20to%20connect!"
           target="_blank"
-          rel="noopener noreferrer">
-          <button className="font-chokokutai text-xl text-[#EFC7B0] border border-[#EFC7B0] px-10 py-3 flex items-center gap-5">
+          rel="noopener noreferrer"
+        >
+          <button className="font-chokokutai text-xl text-[#EFC7B0] border border-[#EFC7B0] px-10 py-2 flex items-center gap-5">
             Contact us
             <img src={arrowButton} alt="arrowButton" className="w-6 h-6" />
           </button>
@@ -26,7 +27,8 @@ const CurvedLine = () => {
         viewBox="0 0 1920 46"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="none">
+        preserveAspectRatio="none"
+      >
         <defs>
           <linearGradient
             id="paint0_linear"
@@ -34,7 +36,8 @@ const CurvedLine = () => {
             y1="23.231"
             x2="1919"
             y2="23.231"
-            gradientUnits="userSpaceOnUse">
+            gradientUnits="userSpaceOnUse"
+          >
             <stop stopColor="#EFC7B0" stopOpacity="0" />
             <stop offset="0.5" stopColor="#EFC7B0" />
             <stop offset="1" stopColor="#EFC7B0" stopOpacity="0" />
