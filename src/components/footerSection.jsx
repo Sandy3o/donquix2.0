@@ -6,7 +6,7 @@ const FooterSection = () => {
       <CurvedLine />
       <div className="w-full h-100vh bg-black flex flex-col items-center justify-items-center pb-10 ">
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@donquix.com.com&su=Contact%20Inquiry&body=Hello,%20I%20would%20like%20to%20connect!"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@donquix.com&su=Contact%20Inquiry&body=Hello,%20I%20would%20like%20to%20connect!"
           target="_blank"
           rel="noopener noreferrer"
         >

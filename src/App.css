@@ -14,9 +14,19 @@
 }
 
 @font-face {
-  font-family: "Gilroy-Medium";
-  src: url("/fonts/Gilroy/Gilroy-MediumItalic.ttf") format("truetype"),
-    url("/fonts/Gilroy-Medium.ttf") format("woff2");
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-Gilro {
+  font-family: "Gilroy", sans-serif;
 }
