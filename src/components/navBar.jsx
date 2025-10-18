@@ -4,7 +4,7 @@ import "../App.css";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[5vh] flex flex-col  sm:flex-row items-center justify-between px-6 sm:px-45 py-1 bg-black">
+    <nav className="w-full h-[5vh] flex flex-col  sm:flex-row items-center justify-between px-45 py-1 bg-black">
       {/* Left Section */}
       <div className="flex items-center gap-5">
         <img src={logo} alt="Donquix Logo" className="w-8 h-8" />
